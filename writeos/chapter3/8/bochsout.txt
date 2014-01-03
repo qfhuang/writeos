@@ -1,0 +1,349 @@
+00000000000i[     ] Bochs x86 Emulator 2.3.5
+00000000000i[     ]   Build from CVS snapshot, on September 16, 2007
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ]   APIC support: no
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 5
+00000000000i[     ]   TLB enabled: yes
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   SSE support: no
+00000000000i[     ]   CLFLUSH support: no
+00000000000i[     ]   v8086 mode support: yes
+00000000000i[     ]   VME support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   PAE support: no
+00000000000i[     ]   PGE support: no
+00000000000i[     ]   PSE support: yes
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   SEP support: no
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   Guest2HostTLB support: no
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Icache support: no
+00000000000i[     ]   Host Asm support: yes
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: no
+00000000000i[     ]   PCI support: no
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0xb5a0f008. after alignment, vector=0xb5a10000
+00000000000i[MEM0 ] 32.00MB
+00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('/usr/share/bochs/BIOS-bochs-latest')
+00000000000i[MEM0 ] rom at 0xc0000/39424 ('/usr/share/vgabios/vgabios.bin')
+00000000000i[CMOS ] Using local time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Sun Nov 23 18:56:05 2008 (time0=1227437765)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[FDD  ] fd0: 'boot.img' ro=0, h=2,t=80,spt=18
+00000000000i[MEM0 ] Register memory access handlers: 000a0000-000bffff
+00000000000i[XGUI ] test_alloc_colors: 16 colors available out of 16 colors tried
+00000000000i[XGUI ] font 8 wide x 16 high, display depth = 24
+00000000000i[VGA  ] interval=40000
+00000000000i[MEM0 ] Register memory access handlers: e0000000-e07fffff
+00000000000i[VGA  ] VBE Bochs Display Extension Enabled
+00000000000i[     ] init_mem of 'harddrv' plugin device by virtual method
+00000000000i[     ] init_mem of 'keyboard' plugin device by virtual method
+00000000000i[     ] init_mem of 'serial' plugin device by virtual method
+00000000000i[     ] init_mem of 'parallel' plugin device by virtual method
+00000000000i[     ] init_mem of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_mem of 'speaker' plugin device by virtual method
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] Using boot sequence floppy, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Failed to open /dev/console: Resource temporarily unavailable
+00000000000i[SPEAK] Deactivating beep on console
+00000000000i[     ] register state of 'harddrv' plugin device by virtual method
+00000000000i[     ] register state of 'keyboard' plugin device by virtual method
+00000000000i[     ] register state of 'serial' plugin device by virtual method
+00000000000i[     ] register state of 'parallel' plugin device by virtual method
+00000000000i[     ] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] register state of 'speaker' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000000000i[XGUI ] [x] Mouse off
+00000000000i[     ] set SIGINT handler to bx_debug_ctrlc_handler
+00000003572i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00000080000e[VGA  ] character height = 1, skipping text update
+00000160000e[VGA  ] character height = 1, skipping text update
+00000240000e[VGA  ] character height = 1, skipping text update
+00000317544i[KBD  ] reset-disable command received
+00000320000e[VGA  ] character height = 1, skipping text update
+00000352162i[BIOS ] Starting rombios32
+00000352873i[BIOS ] ram_size=0x02000000
+00000353387i[BIOS ] Found 1 cpu(s)
+00000400000e[VGA  ] character height = 1, skipping text update
+00000480000e[VGA  ] character height = 1, skipping text update
+00000560000e[VGA  ] character height = 1, skipping text update
+00000640000e[VGA  ] character height = 1, skipping text update
+00000643719i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00000643790i[VGA  ] VBE known Display Interface b0c0
+00000643822i[VGA  ] VBE known Display Interface b0c4
+00000646747i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00000720000i[XGUI ] charmap update. Font Height is 16
+00000800000i[XGUI ] charmap update. Font Height is 16
+00001095869i[BIOS ] Booting from 0000:7c00
+00001569462e[CPU  ] branch_near: offset outside of CS limits
+00001569462i[CPU  ] protected mode
+00001569462i[CPU  ] CS.d_b = 32 bit
+00001569462i[CPU  ] SS.d_b = 32 bit
+00001569462i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00001569462i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00001569462i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00001569462i[CPU  ] | SEG selector     base    limit G D
+00001569462i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00001569462i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00001569462i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00001569462i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00001569462i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00001569462i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00001569462i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00001569462i[CPU  ] | EIP=0000001d (0000001d)
+00001569462i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00001569462i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00001569462i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00001569462e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00001569462i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00001569462e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00001573034i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00001886573i[KBD  ] reset-disable command received
+00001921153i[BIOS ] Starting rombios32
+00001921864i[BIOS ] ram_size=0x02000000
+00001922378i[BIOS ] Found 1 cpu(s)
+00002212710i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00002212781i[VGA  ] VBE known Display Interface b0c0
+00002212813i[VGA  ] VBE known Display Interface b0c4
+00002215738i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00002240000i[XGUI ] charmap update. Font Height is 16
+00002320000i[XGUI ] charmap update. Font Height is 16
+00002664860i[BIOS ] Booting from 0000:7c00
+00003138453e[CPU  ] branch_near: offset outside of CS limits
+00003138453i[CPU  ] protected mode
+00003138453i[CPU  ] CS.d_b = 32 bit
+00003138453i[CPU  ] SS.d_b = 32 bit
+00003138453i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00003138453i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00003138453i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00003138453i[CPU  ] | SEG selector     base    limit G D
+00003138453i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00003138453i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00003138453i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00003138453i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00003138453i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00003138453i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00003138453i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00003138453i[CPU  ] | EIP=0000001d (0000001d)
+00003138453i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00003138453i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00003138453i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00003138453e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00003138453i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00003138453e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00003142025i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00003455564i[KBD  ] reset-disable command received
+00003490144i[BIOS ] Starting rombios32
+00003490855i[BIOS ] ram_size=0x02000000
+00003491369i[BIOS ] Found 1 cpu(s)
+00003781701i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00003781772i[VGA  ] VBE known Display Interface b0c0
+00003781804i[VGA  ] VBE known Display Interface b0c4
+00003784729i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00003840000i[XGUI ] charmap update. Font Height is 16
+00003920000i[XGUI ] charmap update. Font Height is 16
+00004233851i[BIOS ] Booting from 0000:7c00
+00004707444e[CPU  ] branch_near: offset outside of CS limits
+00004707444i[CPU  ] protected mode
+00004707444i[CPU  ] CS.d_b = 32 bit
+00004707444i[CPU  ] SS.d_b = 32 bit
+00004707444i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00004707444i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00004707444i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00004707444i[CPU  ] | SEG selector     base    limit G D
+00004707444i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00004707444i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00004707444i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00004707444i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00004707444i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00004707444i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00004707444i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00004707444i[CPU  ] | EIP=0000001d (0000001d)
+00004707444i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00004707444i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00004707444i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00004707444e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00004707444i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00004707444e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00004711016i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00005024555i[KBD  ] reset-disable command received
+00005059135i[BIOS ] Starting rombios32
+00005059846i[BIOS ] ram_size=0x02000000
+00005060360i[BIOS ] Found 1 cpu(s)
+00005350692i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00005350763i[VGA  ] VBE known Display Interface b0c0
+00005350795i[VGA  ] VBE known Display Interface b0c4
+00005353720i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00005440000i[XGUI ] charmap update. Font Height is 16
+00005802842i[BIOS ] Booting from 0000:7c00
+00006276435e[CPU  ] branch_near: offset outside of CS limits
+00006276435i[CPU  ] protected mode
+00006276435i[CPU  ] CS.d_b = 32 bit
+00006276435i[CPU  ] SS.d_b = 32 bit
+00006276435i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00006276435i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00006276435i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00006276435i[CPU  ] | SEG selector     base    limit G D
+00006276435i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00006276435i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00006276435i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00006276435i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00006276435i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00006276435i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00006276435i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00006276435i[CPU  ] | EIP=0000001d (0000001d)
+00006276435i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00006276435i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00006276435i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00006276435e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00006276435i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00006276435e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00006280007i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00006593546i[KBD  ] reset-disable command received
+00006628164i[BIOS ] Starting rombios32
+00006628875i[BIOS ] ram_size=0x02000000
+00006629389i[BIOS ] Found 1 cpu(s)
+00006919721i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00006919792i[VGA  ] VBE known Display Interface b0c0
+00006919824i[VGA  ] VBE known Display Interface b0c4
+00006922749i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00006960000i[XGUI ] charmap update. Font Height is 16
+00007040000i[XGUI ] charmap update. Font Height is 16
+00007371871i[BIOS ] Booting from 0000:7c00
+00007845464e[CPU  ] branch_near: offset outside of CS limits
+00007845464i[CPU  ] protected mode
+00007845464i[CPU  ] CS.d_b = 32 bit
+00007845464i[CPU  ] SS.d_b = 32 bit
+00007845464i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00007845464i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00007845464i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00007845464i[CPU  ] | SEG selector     base    limit G D
+00007845464i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00007845464i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00007845464i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00007845464i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00007845464i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00007845464i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00007845464i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00007845464i[CPU  ] | EIP=0000001d (0000001d)
+00007845464i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00007845464i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00007845464i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00007845464e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00007845464i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00007845464e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00007849036i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00008162575i[KBD  ] reset-disable command received
+00008197155i[BIOS ] Starting rombios32
+00008197866i[BIOS ] ram_size=0x02000000
+00008198380i[BIOS ] Found 1 cpu(s)
+00008488712i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00008488783i[VGA  ] VBE known Display Interface b0c0
+00008488815i[VGA  ] VBE known Display Interface b0c4
+00008491740i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00008560000i[XGUI ] charmap update. Font Height is 16
+00008640000i[XGUI ] charmap update. Font Height is 16
+00008940862i[BIOS ] Booting from 0000:7c00
+00009414455e[CPU  ] branch_near: offset outside of CS limits
+00009414455i[CPU  ] protected mode
+00009414455i[CPU  ] CS.d_b = 32 bit
+00009414455i[CPU  ] SS.d_b = 32 bit
+00009414455i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00009414455i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00009414455i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00009414455i[CPU  ] | SEG selector     base    limit G D
+00009414455i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00009414455i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00009414455i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00009414455i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00009414455i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00009414455i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00009414455i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00009414455i[CPU  ] | EIP=0000001d (0000001d)
+00009414455i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00009414455i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00009414455i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00009414455e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00009414455i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00009414455e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00009418027i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00009731566i[KBD  ] reset-disable command received
+00009766146i[BIOS ] Starting rombios32
+00009766857i[BIOS ] ram_size=0x02000000
+00009767371i[BIOS ] Found 1 cpu(s)
+00010057703i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00010057774i[VGA  ] VBE known Display Interface b0c0
+00010057806i[VGA  ] VBE known Display Interface b0c4
+00010060731i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00010160000i[XGUI ] charmap update. Font Height is 16
+00010509853i[BIOS ] Booting from 0000:7c00
+00010983446e[CPU  ] branch_near: offset outside of CS limits
+00010983446i[CPU  ] protected mode
+00010983446i[CPU  ] CS.d_b = 32 bit
+00010983446i[CPU  ] SS.d_b = 32 bit
+00010983446i[CPU  ] | EAX=00000020  EBX=00000000  ECX=00000014  EDX=534d4150
+00010983446i[CPU  ] | ESP=00000200  EBP=00007d29  ESI=ffff7d1f  EDI=00080294
+00010983446i[CPU  ] | IOPL=0 id vip vif ac vm RF nt of df if tf sf zf af PF cf
+00010983446i[CPU  ] | SEG selector     base    limit G D
+00010983446i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00010983446i[CPU  ] |  CS:0008( 0001| 0|  0) 00090922 0000004c 0 1
+00010983446i[CPU  ] |  DS:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00010983446i[CPU  ] |  SS:0018( 0003| 0|  0) 0009031c 00000200 0 1
+00010983446i[CPU  ] |  ES:0010( 0002| 0|  0) 00090179 000001a2 0 0
+00010983446i[CPU  ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+00010983446i[CPU  ] |  GS:0020( 0004| 0|  0) 000b8000 0000ffff 0 0
+00010983446i[CPU  ] | EIP=0000001d (0000001d)
+00010983446i[CPU  ] | CR0=0x00000011 CR1=0 CR2=0x00000000
+00010983446i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00010983446i[CPU  ] >> jmp .+0x000001b2 (0x00090af6) : E9B2010000
+00010983446e[CPU  ] exception(): 3rd (13) exception with no resolution, shutdown status is 00h, resetting
+00010983446i[SYS  ] bx_pc_system_c::Reset(SOFTWARE) called
+00010983446e[CPU  ] CPU_LOOP bx_guard.interrupt_requested=1
+00010984473i[     ] dbg: Quit
+00010984473i[CPU  ] real mode
+00010984473i[CPU  ] CS.d_b = 16 bit
+00010984473i[CPU  ] SS.d_b = 16 bit
+00010984473i[CPU  ] | EAX=0000f000  EBX=0000019d  ECX=00000000  EDX=00000543
+00010984473i[CPU  ] | ESP=0000ffc4  EBP=0000ffc8  ESI=00000000  EDI=00000500
+00010984473i[CPU  ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf zf af pf cf
+00010984473i[CPU  ] | SEG selector     base    limit G D
+00010984473i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00010984473i[CPU  ] |  CS:f000( 1e00| 0|  0) 000f0000 0000ffff 0 0
+00010984473i[CPU  ] |  DS:f000( 0000| 0|  0) 000f0000 0000ffff 0 0
+00010984473i[CPU  ] |  SS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00010984473i[CPU  ] |  ES:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00010984473i[CPU  ] |  FS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00010984473i[CPU  ] |  GS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00010984473i[CPU  ] | EIP=00000601 (00000601)
+00010984473i[CPU  ] | CR0=0x00000010 CR1=0 CR2=0x00000000
+00010984473i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+00010984473i[CPU  ] >> mov al, byte ptr ds:[bx] : 8A07
+00010984473i[CMOS ] Last time is 1227437770 (Sun Nov 23 18:56:10 2008)
+00010984473i[XGUI ] Exit.
+00010984473i[CTRL ] quit_sim called with exit code 0
