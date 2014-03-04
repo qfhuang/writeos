@@ -1,4 +1,4 @@
-/* chapter3/1/solrex_x86_boot.ld
+/* chapter3/1/solrex_x86_dos.ld
 
    Author: Wenbo Yang <solrex@gmail.com> <http://solrex.cn>
 
@@ -10,7 +10,7 @@
 
 SECTIONS
 {
-  . = 0x7c00;
+  . = 0x0100;
   .text :
   {
     _ftext = .;

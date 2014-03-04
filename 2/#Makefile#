@@ -15,7 +15,7 @@ OBJCOPY=objcopy
 CFLAGS=-c
 TRIM_FLAGS=-R .pdr -R .comment -R.note -S -O binary
 
-LDFILE_BOOT=solrex_x86_boot.ld
+LDFILE_BOOT=x86.ld
 LDFILE_DOS=solrex_x86_dos.ld
 LDFLAGS_BOOT=-T$(LDFILE_BOOT)
 LDFLAGS_DOS=-T$(LDFILE_DOS)
